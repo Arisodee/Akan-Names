@@ -1,3 +1,27 @@
-.jumbotron{
-    background-color:cyan;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-weight: bolder;
+    color:rgb(28, 73, 28);
+    font-size: 66px;
+}
+.box {
+    border: 5px solid rgb(28, 73, 28);
+    background-color: white;
+    padding: 40px;
+    margin: 40px;
+    width: 700px;
+    height: 200px;
+    margin-left:0px;
+    font-size: 22px;
+    float: left;;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+h2{
+    font-weight: normal;
+    color:rgb(28, 73, 28);
 }
