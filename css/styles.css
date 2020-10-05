@@ -25,3 +25,16 @@ h2{
     font-weight: normal;
     color:rgb(28, 73, 28);
 }
+img{
+    margin-right: 350px;
+}
+input{
+    width: 500px;
+    border: 5px solid rgb(28, 73, 28);
+    height: 35px;
+}
+select{
+    border: 5px solid rgb(28, 73, 28);
+    height: 35px;
+    width: 198px
+}
