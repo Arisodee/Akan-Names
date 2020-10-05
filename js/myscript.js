@@ -10,7 +10,7 @@ function getDayOfBirth(){
         return
     }
     else{
-        alert('Proceed to select your gender')
+        alert("Proceed to select your gender")
     }
     let dateObj = dob.value.split("/")
         if(dateObj.length > 3 || dateObj.length  < 3){
@@ -19,7 +19,16 @@ function getDayOfBirth(){
         }
     let dd = dateObj[0]
 
-    if(parseInt(dd) <= 1 ||  parseInt(dd) > 31 ){
-        alert("Day must be between 1 and 31")
-        return
-        
+        if(parseInt(dd) <= 1 ||  parseInt(dd) > 31 ){
+            alert("Day must be between 1 and 31")
+            return
+    
+    let mm = dateObj[1]
+        if (parseInt(mm) <= 1 || parseInt(mm)> 12 ){
+            alert("Month must be between 1 and 12")
+            return
+    }
+    let yyyy = dateObj[3]
+        if (parseInt(yyyy) <= 1 || parseInt(yyyy)>2020){
+            alert("year must be between1 and 2020")
+        }
