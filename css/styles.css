@@ -29,7 +29,7 @@ img{
     margin-right: 350px;
 }
 input{
-    width: 500px;
+    width: 400px;
     border: 5px solid rgb(28, 73, 28);
     height: 35px;
 }
@@ -37,4 +37,9 @@ select{
     border: 5px solid rgb(28, 73, 28);
     height: 35px;
     width: 198px
+}
+button{
+    border: 5px solid rgb(28, 73, 28);
+    height: 35px;
+    width: 98px;
 }
