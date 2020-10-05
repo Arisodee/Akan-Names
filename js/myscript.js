@@ -32,3 +32,13 @@ function getDayOfBirth(){
         if (parseInt(yyyy) <= 1 || parseInt(yyyy)>2020){
             alert("year must be between1 and 2020")
         }
+        //formula
+       // Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+    let dayOfTheWeek = ( ( (parseInt(yyyy.slice(0,2)/4)) -2*parseInt(yyyy.slice(0,2))-1) + ((5*parseInt(yyyy.slice(2,4))/4) ) + ((26*(parseInt(mm)+1)/10)) + parseInt(dd) ) % 7
+    
+    let genderInput = document.getElementById("gender") 
+    if(genderInput.value === "0"){
+        alert("Please select a gender")
+        return
+    }
