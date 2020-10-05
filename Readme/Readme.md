@@ -6,7 +6,7 @@
 * run https://github.com/Arisodee/Akan-Names.git
 * serve it on the browser
 ## GitHub live link
-https://github.com/Arisodee/Akan-Names.git
+ https://arisodee.github.io/Akan-Names/
 ## Technologies Used
 * HTML
 * CSS
