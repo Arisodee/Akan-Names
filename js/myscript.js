@@ -41,7 +41,7 @@ function getDayOfBirth(){
         alert("year must be between 1 and 2020");
         return
     }
-    debugger
+    
     let dayOfTheWeek = ( ( (parseInt(yyyy.slice(0,2)/4)) -2*parseInt(yyyy.slice(0,2))-1) + ((5*parseInt(yyyy.slice(2,4))/4) ) + ((26*(parseInt(mm)+1)/10)) + parseInt(dd) ) % 7
 
         
